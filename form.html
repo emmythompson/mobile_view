@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/wdw_favicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/4e2348fdd4.js" crossorigin="anonymous"></script>
+	<title>Home Page</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HT8LK6W1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q1HT8LK6W1');
+</script>
+
+</head>
+<body>
+    <a class= "skip" href="#main">Skip to Main Content</a>
+	<header>
+		<nav>
+			<ul>
+				<li><a href = "index.html" >Home Page</a></li>
+				<li><a href = "hard_of_hearing.html">Hearing Impairments</a></li>
+                <li><a href = "visual_impairment.html">Visual Impairments</a></li>
+                <li><a href = "wheelchair_access.html">Wheelchair Accessibility</a></li>
+				<li class="active"><a href = "form.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<main class="container" tabindex="0" id = "text">
+    <main id="main">
+        <h1>Contact Page</h1>
+        <p>Have any additional questions, want to leave me a message or recommendation, or simply want to get in contact? If so, please
+            fill out this form below, and I will email you back as soon as possible. Thank you for visiting!</p>
+        </p>
+ <form
+  action="https://formspree.io/f/xlezlqpr"
+  method="POST"
+>
+  <fieldset>
+
+    <label for="first_name_id">First Name</label>
+    <input type="text" placeholder="Enter Your First Name (Given)" id = "name_id" name="name" required>
+
+    <label for="last_name_id">Last Name</label>
+    <input type="text" placeholder="Enter Your Last Name (Surname)" id = "name_id" name="name" required>
+
+    <label for="email_id">Your Email</label>
+    <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+
+    <label for="msg">Leave A Message or Ask a Question!</label>
+    <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+
+    <input type="submit" value = "Contact Me">
+  </fieldset>
+ </form>
+</main class="container" tabindex="0" id = "text"></main>
+</main>
+</body>
+<footer>
+    Emmy Thompson &copy; 2021
+</footer>
+</html>

@@ -7,7 +7,6 @@
 	<link rel="icon" href="images/wdw_favicon.png">
 	<link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4e2348fdd4.js" crossorigin="anonymous"></script>
 	<title>Wheelchair Accessibilty</title>
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HT8LK6W1"></script>
@@ -23,6 +22,7 @@
 <body>
     <a class= "skip" href="#main">Skip to Main Content</a>
 	<header>
+        <img src="images/logo.png" alt="" id = "logo">
 		<nav>
 			<ul>
                 <li><a href = "index.html">Homepage</a></li>
@@ -34,7 +34,9 @@
 		</nav>
 	</header>
 
-    <main class="container" tabindex="0" id = "text">
+    <div class="container" tabindex="0" id = "text">
+        <button id="button">Color Switch</button>
+	<script src="javascript.js"></script>
         <h1>Wheelchair Access at Disney World</h1>
 	<main id="main">
         <h2>Can I rent a Wheelchair, Stroller, or ECV?</h2>
@@ -50,10 +52,12 @@
                 <li>Stroller rentals: <a href="https://disneyworld.disney.go.com/guest-services/stroller-rentals/">Link</a></li>
                 <li>ECV rentals: <a href="https://disneyworld.disney.go.com/guest-services/ecv-rentals/">Link</a></li>
             </ul>
+            <div class="grid">
             <img src = "images/wheelchair_rental_mk.jpg" alt = "wheelchair rental at Magic Kingdom" width="200px"/>
             <img src = "images/wheelchair_rental_epcot.jpg" alt = "Wheelchair rental at EPCOT" width="200px"/>
             <img src = "images/wheelchair_rental_dhs.jpg" alt = "Wheelchair rental at Disney's Hollywood Studios" width="200px"/>
             <img src = "images/wheelchair_rental_dak.jpeg" alt = "Wheelchair rental at Disney's Animal Kingdom" width="200px"/>
+            </div>
 
         <h3>Do I need to transfer from my wheelchair?</h3>
         <p>According to Disney World's website, there are three categories of attraction access: </p>
@@ -67,18 +71,21 @@
             who can help you transfer if needed. Most rides have a secondary queue to enter for those in wheelchairs. Ask a cast member at the front of the attraction
         about which line to enter. </p>
         <p>Wheelchair access is available on all Disney transportation including: Monorails, busses, trains, boats, and the skyliner.</p>
-        <img src = "images/no_transfer_jungle_cruise.jpg" alt = "Man in a electric wheelchair getting off the Jungle Cruise" width="200px"/>
+        <div class="flex">
         <img src = "images/wheelchair_boat_iasw.jpg" alt = "Wheelchair accessible boat on It's a Small World" width="200px"/>
         <img src = "images/wheelchair_safari.jpg" alt = "Wheelchair ramp for Kilimanjaro Safaris" width="200px"/>
         <img src = "images/boat_access.jpg" alt = "Wheelchair user getting on a boat" width="200px"/>
+        </div>
+        <section class="restroom_text"></section>
         <h4>Are there accessible restrooms?</h4>
         <p>Each restroom at Disney World typically has the traditional wheelchair accessible stall, but larger 
             restroom with more features are available. These restrooms are known as companion restrooms on the park maps.
             While these restrooms are larger, they do not have has many facilities as the ones at Tokyo Disney Land. If you need additional
             facilities like a sink for ostomates, please visit the first aid center at the park.
         </p>
-        <img src = "images/dak_companion_restroom.jpg" alt = "Companion restroom with handrails and larger space." width="200px"/>
-    </main class="container" tabindex="0" id = "text"></main>
+        </section>
+        <img src = "images/dak_companion_restroom.jpg" alt = "Companion restroom with handrails and larger space."  class = "restroom_pic" width="200px"/>
+    </div class="container" tabindex="0" id = "text"></main>
 
 	</main>
 

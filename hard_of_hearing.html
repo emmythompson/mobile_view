@@ -7,7 +7,6 @@
 	<link rel="icon" href="images/wdw_favicon.png">
 	<link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4e2348fdd4.js" crossorigin="anonymous"></script>
 	<title>Hearing Impairments</title>
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HT8LK6W1"></script>
@@ -23,6 +22,7 @@
 <body>
     <a class= "skip" href="#main">Skip to Main Content</a>
 	<header>
+        <img src="images/logo.png" alt="" id = "logo">
 		<nav>
 			<ul>
                 <li><a href = "index.html">Homepage</a></li>
@@ -34,7 +34,9 @@
 		</nav>
 	</header>
 
-	<main class="container" tabindex="0" id = "text">
+	<div class="container" tabindex="0" id = "text">
+        <button id="button">Color Switch</button>
+	<script src="javascript.js"></script>
         <h1>Hearing Impairments at Disney World</h1>
     <main id="main">
         <h2>What services are available?</h2>
@@ -63,9 +65,11 @@
             Rentals cost a refundable fee of $25. It is recommended to go to the parks early to rent these devices since rentals are on a first come first serve 
             basis and reservations are not available. Please bring your own headphones to use as well.</p>
             <p>To see what types are attractions and shows work with the device please view this link: <a href="https://disneyworld.disney.go.com/attractions/#/handheld-captioning/sort=location/">Link</a></li></p>
-
+        
+        <div class="flex">
         <img src = "images/handheld_device_epcot.PNG" alt = "Handheld Device at EPCOT" width="200px"/>
         <img src = "images/handheld_device_mk.PNG" alt = "Handheld Device at Magic Kingdom" width="200px"/>
+        </div>
 
         <h5>Do ride monitors have Video Captioning?</h5>
         <p>Some monitors/screens in pre-show areas will open captioning already on them. These screens are
@@ -73,9 +77,11 @@
         Most newer rides, will have one pre-show screen with CC automatically being displayed in English. 
         CC can also be viewed on the Handheld Captioning Devices as well. Please ask a Cast Member if you need help finding a screen with CC.</p>
 
-        <img src = "images/muppets_cc.jpg" alt = "Muppets 3D CC screen" width="200px"/>
+        <div class="flex">
         <img src = "images/fop_cc.jpg" alt = "Flight of Passage CC screen" width="200px"/>
+        <img src = "images/muppets_cc.jpg" alt = "Muppets 3D CC screen" width="200px"/>
         <img src = "images/soarin_cc.jpg" alt = "Soarin CC screen" width="200px"/>
+        </div>
 
         <h6>How do I request a Sign Language Intrepretation?</h6>
         <p>Walt Disney World provides ASL interpreters for live shows, parades, and a few rides. To obtain an up to date
@@ -84,17 +90,13 @@
         </p>
         <p>Cast Members who known ASL will also have that indicated on their nametags on a gold bar.</p>
 
+        <div class="flex">
         <img src = "images/asl_beauty_beast_show.jpg" alt = "ASL intrepretation at Beauty and Beast show" width="200px"/>
-        <img src = "images/asl_jungle_cruise.jpg" alt = "ASL intrepretation on Jungle Cruise" width="200px"/>
         <img src = "images/asl_nametag.jpg" alt = "ASL listed on a nametag" width="200px"/>
-
-        <h7>Are service dogs allowed?</h7>
-        <p>Service dogs are allowed in all parks. Service animals must be trained and can be a dog or miniature horse.
-            Some rides allowed service animals to ride with the owner, 
-            while others may ask for the animal to wait at the load/unload area in a crate.
-            There are multiple locations for service animals to relieve themselves as well.
-        </p>
-    </main class="container" tabindex="0" id = "text"></main>
+        <img src = "images/asl_jungle_cruise.jpg" alt = "ASL intrepretation on Jungle Cruise" width="200px"/>
+        </div>
+    
+    </div class="container" tabindex="0" id = "text"></main>
 	</main>
 
 	<footer>

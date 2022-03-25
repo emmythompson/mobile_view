@@ -7,7 +7,6 @@
 	<link rel="icon" href="images/wdw_favicon.png">
 	<link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/4e2348fdd4.js" crossorigin="anonymous"></script>
 	<title>Visual Impairments</title>
    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HT8LK6W1"></script>
@@ -23,6 +22,7 @@
 <body>
     <a class= "skip" href="#main">Skip to Main Content</a>
 	<header>
+        <img src="images/logo.png" alt="" id = "logo">
 		<nav>
 			<ul>
                 <li><a href = "index.html">Homepage</a></li>
@@ -34,7 +34,9 @@
 		</nav>
 	</header>
 
-    <main class="container" tabindex="0" id = "text">
+    <div class="container" tabindex="0" id = "text">
+        <button id="button">Color Switch</button>
+	<script src="javascript.js"></script>
         <h1>Visual Impairments at Disney World</h1>
 	<main id="main">
         <h2>Is Audio Description available?</h2>
@@ -56,8 +58,10 @@
         <p>Please note that for the Braille Guidebooks and Portable Tactile Map Booklets, guests will have to print 
             them at home or request them in advance by emailing or calling (407) 828-5005.</p>
 
+        <div class="flex">
         <img src = "images/braille_dhs.jpg" alt = "Stationary Braille Map at Disney's Hollywood Studios" width="200px"/>
         <img src = "images/braille_epcot.jpg" alt = "Stationary Braille Map at EPCOT" width="200px"/>
+        </div>
         
         <h4>Are service dogs allowed?</h4>
         <p>Service dogs are allowed in all parks. Service animals must be trained and can be a dog or miniature horse.
@@ -65,18 +69,23 @@
             while others may ask for the animal to wait at the load/unload area in a crate.
             There are multiple locations for service animals to relieve themselves as well.
         </p>
+        <div class="flex">
         <img src = "images/relief_area_dak.jpg" alt = "Service animal relief area at Animal Kingdom." width="200px"/>
-        <img src = "images/relief_area_mk.jpg" alt = "Service animal relief area at Magic Kingdom." width="200px"/>
         <img src = "images/crate_rotr.png" alt = "Service animal crate at Rise of the Resistance." width="200px"/>
         <img src = "images/service_dog_gran_fiesta.png" alt = "Service dog on Gran Fiesta boat ride." width="200px"/>
+        </div>
 
         <h5>Are there scale models for me to feel?</h5>
         <p>At this time, only Tokyo Disneyland provides scale models of ride vehicles, buildings, and characters.
             Hopefully in the future, Walt Disney World will include this service.
         </p>
+
+        <div class="flex">
         <img src = "images/tokyo_scale_models.jpg" alt = "Guest feeling a ride vehicle scale model." width="200px"/>
         <img src = "images/tokyo_character_model.jpg" alt = "Guest feeling a Minnie Mouse scale model." width="200px"/>
-    </main class="container" tabindex="0" id = "text"></main>
+        </div>
+
+    </div class="container" tabindex="0" id = "text"></main>
 	</main>
 
 	<footer>
